@@ -1,0 +1,25 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, .h1, h2, .h2, h3, .h3, p {
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-bottom: 0.4rem;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  padding-bottom: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 15px 0;
+  }
+}
+

@@ -1,0 +1,77 @@
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+#mainNav .navbar-brand {
+  color: #ffffff;
+  font-family: 'Poppins';
+  letter-spacing: 6px;
+  padding: 0px;
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 420px) {
+  #mainNav .navbar-brand {
+    margin-top: -35px;
+  }
+}
+
+.brand-small {
+  color: #FFF42C;
+  height: 0px;
+}
+
+@media (max-width: 420px) {
+  .brand-small {
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .brand-small {
+    margin-top: -19px;
+  }
+}
+
+.menu-footer {
+  padding: 8px 0px;
+}
+
+.social {
+  font-size: 2em;
+  color: #000000;
+  margin: 0px 15px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 5px;
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.social:hover {
+  background-color: rgb(254,209,54);
+}
+
+.social-links {
+  text-decoration: none;
+}
+
+.fab.fa-whatsapp.whatsapp {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  z-index: 995;
+  background: #0ceb1e;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
