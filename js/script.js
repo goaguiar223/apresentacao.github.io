@@ -25,7 +25,7 @@
 		isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
 		windowReady = false,
 		isNoviBuilder = false,
-		livedemo = true,
+		livedemo = false,
 		loaderTimeoutId,
 		plugins = {
 			bootstrapTooltip: $("[data-bs-toggle='tooltip']"),
@@ -1911,7 +1911,7 @@
 		/**
 		 * @module       Magnific Popup
 		 * @author       Dmitry Semenov
-		 * @see          https://dimsemenov.com/plugins/magnific-popup/
+		 * @see          http://dimsemenov.com/plugins/magnific-popup/
 		 * @version      v1.0.0
 		 */
 		if (( plugins.mfp.length || plugins.mfpGallery.length ) && !isNoviBuilder) {
