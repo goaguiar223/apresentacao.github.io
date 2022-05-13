@@ -4407,7 +4407,8 @@ blockquote .position {
 }
 
 .footer-1 .rights {
-  color: #b3b3b3;
+  color: #ededed;
+  text-align: center;
 }
 
 .footer-1 .rights a:hover {
