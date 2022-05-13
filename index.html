@@ -219,41 +219,6 @@
               </div>
             </div>
           </div>
-          <!-- <div
-            class="swiper-slide context-dark"
-            data-slide-bg="images/slider-1-1920x879.webp"
-            style="background-position: 50% 50%"
-          >
-            <div class="swiper-slide-caption">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-10 col-lg-7">
-                    <h1
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="100"
-                    >
-                      Flawless Design & Useful Features
-                    </h1>
-                    <p
-                      class="lead"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="250"
-                    >
-                      This theme offers everything you may need - from
-                      responsiveness to free updates and even more!
-                    </p>
-                    <a
-                      class="button button-lg button-primary button-icon button-icon-left"
-                      href="#"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="450"
-                      >Buy It Now</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
         <!-- Swiper Pagination-->
         <div class="container swiper-pagination-wrap">
@@ -579,46 +544,55 @@
               <h5 class="title">Fale Conosco</h5>
               <!-- RD Mailform-->
               <form
-                class="rd-form rd-mailform"
-                data-form-output="form-output-global"
-                data-form-type="contact"
-                method="post"
-                action="bat/rd-mailform.php"
+                class="contato"
+                data-bss-loading-message="Enviando..."
+                data-bss-success-title="Sucesso"
+                data-bss-success-message="Sua mensagem foi enviada."
+                data-bss-error-title="Oops.."
+                data-bss-error-message="Algo deu errado, tente novamente mais tarde."
+                data-bss-filesize-message="O tamanho total deve ser inferior a 10 megabytes."
+                data-bss-empty-form-message="Por favor, preencha os campos obrigatórios e tente novamente."
+                data-bss-close="Fechar."
+                data-bss-subject="Contato Efraim Card"
+                role="form"
+                data-bss-recipient="44e80b1154c7c2d2b263a61ec694ca9e"
               >
-                <div class="form-wrap">
+                <input
+                  class="form-control my-2 form-input"
+                  type="text"
+                  required=""
+                  placeholder="Nome"
+                  name="nome"
+                /><input
+                  class="form-control my-2 form-input"
+                  type="email"
+                  required=""
+                  placeholder="Email"
+                  name="email"
+                /><input
+                  class="form-control my-2 form-input"
+                  type="tel"
+                  placeholder="Telefone"
+                  name="telefone"
+                  inputmode="tel"
+                  required=""
+                /><textarea
+                  class="form-control my-2 form-input"
+                  placeholder="Mensagem"
+                  name="mensagem"
+                  rows="3"
+                ></textarea>
+                <div class="form-check my-2">
                   <input
-                    class="form-input"
-                    id="contact-name-footer"
-                    type="text"
-                    name="name"
-                    data-constraints="@Required"
-                  />
-                  <label class="form-label" for="contact-name-footer"
-                    >Nome</label
+                    class="form-check-input"
+                    type="checkbox"
+                    id="formCheck-1"
+                    name="aceite-check"
+                    value="Declaro que li e concordo com as políticas do site"
+                    required=""
+                  /><label class="form-check-label" for="aceite"
+                    >Declaro que li e concordo com as políticas do site</label
                   >
-                </div>
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-email-footer"
-                    type="email"
-                    name="email"
-                    data-constraints="@Email @Required"
-                  />
-                  <label class="form-label" for="contact-email-footer"
-                    >E-mail</label
-                  >
-                </div>
-                <div class="form-wrap">
-                  <label class="form-label" for="contact-message-footer"
-                    >Mensagem</label
-                  >
-                  <textarea
-                    class="form-input"
-                    id="contact-message-footer"
-                    name="message"
-                    data-constraints="@Required"
-                  ></textarea>
                 </div>
                 <button class="button button-primary" type="submit">
                   Enviar
@@ -647,9 +621,16 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="/js/smart-forms.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/core.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/script.js"></script>
+    <script
+      id="bs-live-reload"
+      data-sseport="50376"
+      data-lastchange="1652466916434"
+      src="/js/livereload.js"
+    ></script>
   </body>
 </html>
