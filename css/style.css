@@ -92,7 +92,7 @@ html p a:hover {
 body {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71429;
   font-weight: 300;
   color: #29293a;
@@ -1566,8 +1566,9 @@ img {
 */
 .icon {
   display: inline-block;
-  font-size: 16px;
+  font-size: 36px;
   line-height: 1;
+  padding: 10px;
   vertical-align: middle;
 }
 
@@ -4406,7 +4407,7 @@ blockquote .position {
 }
 
 .footer-1 .rights {
-  color: rgba(174, 177, 190, 0.3);
+  color: #b3b3b3;
 }
 
 .footer-1 .rights a:hover {
